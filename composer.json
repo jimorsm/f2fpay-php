@@ -1,0 +1,25 @@
+{
+    "name": "jimorsm/f2fpay-php",
+    "type": "library",
+    "description": "A library to use alipay-f2fpay",
+    "keywords": ["alipay","f2fpay","jimorsm"],
+    "homepage": "https://jimorsm.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jimorsm",
+            "email": "jimorsm@gmail.com",
+            "homepage": "https://jimorsm.com",
+            "role": "Developer"        
+        }
+    ],
+    "require:": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "f2fpay-php\\": "src/"
+        },
+        "classmap": ["src/"]
+    }
+}
